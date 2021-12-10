@@ -1,0 +1,7 @@
+手写promise
+封装对象promise，ajax中得到的数据
+首先设置默认值，succeed fail state  以及三个方法 resolve reject then
+执行constructor函数，函数以ajax是否得到数据反馈为两个对应的参数resolve，reject从而调用对应的两个方法
+resolve方法中设置延时以异步的形式，得到的话将对应成功设置的属性默认值改变，以及state状态
+fail方法同理
+最后then函数将最初属性对应的值重新赋予该属性
